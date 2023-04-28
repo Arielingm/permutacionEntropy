@@ -1,6 +1,8 @@
 # permutacionEntropy
 Función: permutacionEntropyPRO(signal, m=3)
+
 Descripción:
+
 Esta función calcula la entropía de permutación de una señal dada utilizando la longitud de permutación (m) especificada. La entropía de permutación se calcula utilizando la fórmula de la entropía de Shannon.
 
 Parámetros de entrada:
