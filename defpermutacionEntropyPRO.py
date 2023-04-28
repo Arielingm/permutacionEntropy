@@ -35,3 +35,8 @@ def permutacionEntropyPRO(signal, m=3):
 permutacion = np.array([4, 7, 9, 10, 6, 11, 3])  # Permutación de ejemplo
 
 print(permutacionEntropyPRO(permutacion))  # Imprimir la entropía de permutación de la permutación de ejemplo
+
+""" 
+Si sea desea algo mas complejo puede buscar en librerias:
+https://www.entropyhub.xyz/python/Examples/Ex1.html
+"""
