@@ -8,6 +8,7 @@ Esta función calcula la entropía de permutación de una señal dada utilizando
 Parámetros de entrada:
 
 signal: una señal unidimensional en forma de array de numpy.
+
 m (opcional): la longitud de permutación deseada. El valor predeterminado es 3.
 
 Valor de salida:
