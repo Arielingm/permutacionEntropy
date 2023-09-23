@@ -36,4 +36,11 @@ entropia = permutacionEntropyPRO(permutacion)
 
 # Imprimir el resultado
 print("Entropía de Permutación:", entropia)
+```
+## Más información
+
+Si sea desea algo mas complejo puede buscar en librerias:
+
+- [EntropyHub](https://www.entropyhub.xyz/python/Examples/Ex1.html)
+
 
