@@ -1,29 +1,39 @@
-# permutacionEntropy
-Función: permutacionEntropyPRO(signal, m=3)
+# permutacionEntropyPRO
 
-Descripción:
+## Descripción
 
-Esta función calcula la entropía de permutación de una señal dada utilizando la longitud de permutación (m) especificada. La entropía de permutación se calcula utilizando la fórmula de la entropía de Shannon.
+La función `permutacionEntropyPRO` calcula la entropía de permutación de una señal unidimensional dada utilizando la longitud de permutación (m) especificada. La entropía de permutación es una métrica utilizada en el análisis de series temporales para cuantificar la complejidad de una señal.
 
-Parámetros de entrada:
+## Parámetros de Entrada
 
-signal: una señal unidimensional en forma de array de numpy.
+- `signal`: Una señal unidimensional representada como un array de NumPy.
 
-m (opcional): la longitud de permutación deseada. El valor predeterminado es 3.
+- `m` (opcional): La longitud de permutación deseada. El valor predeterminado es 3.
 
-Valor de salida:
+## Valor de Salida
 
-entropia: el valor de la entropía de permutación calculado para la señal dada.
+- `entropia`: El valor de la entropía de permutación calculado para la señal dada.
 
-Librerías requeridas:
+## Requisitos
 
--numpy
--itertools
--math
--scipy.stats
+Asegúrate de tener instaladas las siguientes bibliotecas:
 
-Uso:
+- NumPy
+- SciPy
 
-La función se puede utilizar llamándola y pasando la señal como el primer argumento y opcionalmente la longitud de permutación deseada como segundo argumento. Por ejemplo:
+## Uso
+
+Puedes utilizar la función llamándola y pasando la señal como el primer argumento y opcionalmente la longitud de permutación deseada como el segundo argumento. Ejemplo de uso:
+
+```python
+import numpy as np
+
+# Definir una señal de ejemplo
 permutacion = np.array([4, 7, 9, 10, 6, 11, 3])
+
+# Calcular la entropía de permutación
 entropia = permutacionEntropyPRO(permutacion)
+
+# Imprimir el resultado
+print("Entropía de Permutación:", entropia)
+
